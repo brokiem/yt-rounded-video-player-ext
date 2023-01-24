@@ -4,8 +4,8 @@ A browser extension that adds rounded corners to the YouTube video player
 
 ## Installation
 ### Chrome
-1. Go to [Github Releases](https://github.com/brokiem/yt-rounded-video-player/releases) page
-2. Download either the 'Manifest2' or 'Manifest3' version depending on your Chrome version
+1. Go to the [Github Releases](https://github.com/brokiem/yt-rounded-video-player/releases) page
+2. Download either the 'Manifest2.zip' or 'Manifest3.zip' version depending on your Chrome version
 3. Extract the downloaded zip file
 4. Go to `chrome://extensions/` in your browser
 5. Enable the `Developer mode` toggle in the top right corner
