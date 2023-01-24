@@ -4,7 +4,9 @@
   "author": "brokiem",
   "description": "An extension that adds rounded corners to the YouTube video player",
   "permissions": ["activeTab", "storage"],
+  "icons": { "512": "./icons/icon.png" },
   "action": {
+    "default_icon": "./icons/icon.png",
     "default_popup": "popup.html"
   },
   "content_scripts": [
