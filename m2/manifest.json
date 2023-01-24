@@ -16,7 +16,9 @@
       ],
       "matches": [
         "https://www.youtube.com/*"
-      ]
+      ],
+      "run_at": "document_end",
+      "all_frames": true
     }
   ],
   "manifest_version": 2,
