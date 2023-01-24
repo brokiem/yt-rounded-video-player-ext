@@ -1,0 +1,29 @@
+{
+  "name": "YouTube Rounded Video Player",
+  "version": "1.0",
+  "author": "brokiem",
+  "description": "An extension that adds rounded corners to the YouTube video player",
+  "permissions": ["activeTab", "storage"],
+  "icons": { "512": "./icons/icon.png" },
+  "action": {
+    "default_icon": "./icons/icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
+    }
+  ],
+  "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "brokideev@gmail.com",
+      "strict_min_version": "42.0"
+    }
+  }
+}
